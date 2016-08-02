@@ -22,7 +22,7 @@ Interface | Pascal | `IBusinessService`
 Enumeration type | Pascal | `ErrorLevel` |
 Enumeration values | Pascal | `FatalError` |
 Event | Pascal | `Click` |
-Private field | Camel | `listItem` |
+Private field | Camel | `_listItem` |
 Protected field | Pascal | `MainPanel` |
 Constant field | Pascal | `MaximumItems` |
 Constant Local variable | Camel | `maximumItems` |
@@ -39,7 +39,7 @@ In most cases they are a lazy excuse for not defining a clear and intention-reve
 
 ### Don't prefix fields  (AV1705) ![](images/1.png)
 
-For example, don't use `g_` or `s_` to distinguish static from non-static fields. A method in which it is difficult to distinguish local variables from member fields is generally too big. Examples of incorrect identifier names are: `_currentUser`, `mUserName`, `m_loginTime`.
+For example, don't use `g_` or `s_` to distinguish static from non-static fields. Examples of incorrect identifier names are:  `mUserName`, `m_loginTime`.
 
 ### Don't use abbreviations  (AV1706) ![](images/2.png)
 For example, use `OnButtonClick` rather than `OnBtnClick`. Avoid single character variable names, such as `i` or `q`. Use `index` or `query` instead.
