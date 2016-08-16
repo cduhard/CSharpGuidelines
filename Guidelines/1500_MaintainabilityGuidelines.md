@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Maintainability Guidelines
+# Maintainability Guidelines
 
 ### Methods should not exceed 7 statements (AV1500) ![](images/1.png)
 A method that requires more than 7 statements is simply doing too much or has too many responsibilities. It also requires the human mind to analyze the exact statements to understand what the code is doing. Break it down into multiple small and focused methods with self-explaining names, but make sure the high-level algorithm is still clear.
@@ -91,7 +87,8 @@ Only use `var` as the result of a LINQ query, or if the type is very obvious fro
 
 Instead, use `var` like this:
 
-	var q = from order in orders where order.Items > 10 and order.TotalValue > 1000;
+	var q = from order in orders 
+			where order.Items > 10 and order.TotalValue > 1000;
 	var repository = new RepositoryFactory.Get();	
 	var list = new ReadOnlyCollection();
 

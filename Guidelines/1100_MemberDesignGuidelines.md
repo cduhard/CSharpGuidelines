@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Member Design Guidelines
+# Member Design Guidelines
 
 ### Allow properties to be set in any order (AV1100) ![](images/1.png)
 

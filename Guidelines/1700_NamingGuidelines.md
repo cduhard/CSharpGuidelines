@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Naming Guidelines
+# Naming Guidelines
 
 ### Use US-English (AV1701) ![](images/1.png)
 

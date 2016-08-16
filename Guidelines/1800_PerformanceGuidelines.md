@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Performance Guidelines
+# Performance Guidelines
 
 ### Consider using `Any()` to determine whether an `IEnumerable<T>` is empty (AV1800) ![](images/3.png)
 When a method or other member returns an `IEnumerable<T>` or other collection class that does not expose a `Count` property, use the `Any()` extension method rather than `Count()` to determine whether the collection contains items. If you do use `Count()`, you risk that iterating over the entire collection might have a significant impact (such as when it really is an `IQueryable<T>` to a persistent store).

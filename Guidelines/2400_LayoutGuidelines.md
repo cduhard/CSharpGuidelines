@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Layout Guidelines
+# Layout Guidelines
 
 ### Use a common layout  (AV2400) ![](images/1.png)
 

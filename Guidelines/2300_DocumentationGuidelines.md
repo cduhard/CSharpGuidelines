@@ -1,8 +1,4 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
-
-#Documentation Guidelines
+# Documentation Guidelines
 
 ### Write comments and documentation in US English  (AV2301) ![](images/1.png)
 

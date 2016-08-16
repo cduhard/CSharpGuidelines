@@ -1,8 +1,5 @@
-<!--
-NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra/
- --> 
 
-#Miscellaneous Design Guidelines
+# Miscellaneous Design Guidelines
 
 ### Throw exceptions rather than returning some kind of status value (AV1200) ![](images/2.png)
 
